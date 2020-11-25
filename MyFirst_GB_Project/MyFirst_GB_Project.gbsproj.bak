@@ -3,7 +3,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 33,
-        "worldScrollY": 400,
+        "worldScrollY": 0,
         "zoom": 200,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
@@ -21,8 +21,8 @@
             "id": "94c18861-b352-4f49-a64d-52f2e3415077",
             "name": "Gurbs' House",
             "backgroundId": "0ca4b0d4-c763-48d9-bee1-729fe7836a42",
-            "x": 365.5,
-            "y": 271.5,
+            "x": 399,
+            "y": 279,
             "width": 32,
             "height": 32,
             "actors": [
@@ -31,11 +31,30 @@
                     "movementType": "randomWalk",
                     "direction": "down",
                     "moveSpeed": "1",
-                    "animSpeed": "1",
+                    "animSpeed": "3",
                     "id": "79230bc5-c508-423c-bc60-29ec436062d9",
                     "x": 15,
                     "y": 23,
                     "script": [
+                        {
+                            "id": "9a43b422-9d74-48a5-ab22-0d10c0a263f2",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Hello",
+                                    "Bye"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "c367ff0c-bd96-445a-970c-d9fda0b075b7",
+                            "command": "EVENT_ACTOR_EMOTE",
+                            "args": {
+                                "actorId": "player",
+                                "emoteId": "2"
+                            }
+                        },
                         {
                             "id": "22e78a8f-60b0-4c72-ac1b-68126e438589",
                             "command": "EVENT_IF_TRUE",
@@ -46,31 +65,11 @@
                             "children": {
                                 "true": [
                                     {
-                                        "id": "dc0bcd48-ffe3-4bf9-b848-6a178da04236",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Hello Boy!"
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
                                         "id": "88f46bf4-9def-4771-98af-a19f3fd88b1c",
                                         "command": "EVENT_END"
                                     }
                                 ],
                                 "false": [
-                                    {
-                                        "id": "26d12f7d-ac2d-4be2-92f0-b2966197f244",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Hello Girl!"
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
                                     {
                                         "id": "0ca81d98-ef17-48c2-b81c-8c0031d22c8d",
                                         "command": "EVENT_END"
@@ -251,15 +250,6 @@
                             "Gurbs is looking\nfor his hat."
                         ],
                         "avatarId": ""
-                    }
-                },
-                {
-                    "id": "ef76aeec-9c4c-45f9-b3d7-c78d7cc4004a",
-                    "command": "EVENT_CHOICE",
-                    "args": {
-                        "variable": "13",
-                        "trueText": "I am a Boy!",
-                        "falseText": "I am a Girl!"
                     }
                 },
                 {
