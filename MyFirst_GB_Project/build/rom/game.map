@@ -17,13 +17,13 @@ AREA .  .ABS.
 		l__LIT	0000
 		l__GSINITTAIL	0001
 		l__BSS	005E
-		l__CODE_5	0125
+		l__CODE_5	012B
 		l__BASE	01DA
 		l__HEADER	01E1
 		s__CODE	0200
 		l__HOME	0312
 		l__CODE_8	04DA
-		l__DATA	050B
+		l__DATA	050F
 		l__CODE_1	0671
 		l__GSINIT	0734
 		l__CODE	1BAC
@@ -35,8 +35,8 @@ AREA .  .ABS.
 		s__GSINITTAIL	29CC
 		s__GSFINAL	29CD
 		l__CODE_4	3006
-		l__CODE_7	310D
-		l__CODE_6	3FD9
+		l__CODE_7	34B1
+		l__CODE_6	3F75
 		s__CODE_1	4000
 		s__CODE_3	4000
 		s__CODE_4	4000
@@ -46,12 +46,12 @@ AREA .  .ABS.
 		s__CODE_8	4000
 		.OAM	C000
 		s__DATA	C0A0
-		s__BSS	C5AB
-		s__HEAP	C609
-		s__BSEG	C609
-		s__ISEG	C609
-		s__XSEG	C609
-		s__OVERLAY	C609
+		s__BSS	C5AF
+		s__HEAP	C60D
+		s__BSEG	C60D
+		s__ISEG	C60D
+		s__XSEG	C60D
+		s__OVERLAY	C60D
 		.STACK	E000
 		.refresh_OAM	FF80
 AREA _CODE
@@ -276,7 +276,7 @@ AREA _GSFINAL
 AREA _DATA
 	RADIX HEX
 	BASE C0A0
-	SIZE 050B
+	SIZE 050F
 	ATTRIB REL CON
 	GLOBALS
 		_bank_stack	C0A0
@@ -407,54 +407,54 @@ AREA _DATA
 		_bank_data_ptrs	C573
 		_music_tracks	C583
 		_script_variables	C587
-		_music_7d68032f0_Data	C5A1
+		_music_f97077180_Data	C5A5
 AREA _BSS
 	RADIX HEX
-	BASE C5AB
+	BASE C5AF
 	SIZE 005E
 	ATTRIB REL CON
 	GLOBALS
-		__cpu	C5AB
-		.mode	C5AC
-		__io_out	C5AD
-		__io_in	C5AE
-		__io_status	C5AF
-		.vbl_done	C5B0
-		__current_bank	C5B1
-		_sys_time	C5B2
-		.sys_time	C5B2
-		.int_0x40	C5B4
-		.int_0x48	C5C4
-		.int_0x50	C5D4
-		.int_0x58	C5E4
-		.int_0x60	C5F4
-		.randhi	C604
-		.randlo	C605
+		__cpu	C5AF
+		.mode	C5B0
+		__io_out	C5B1
+		__io_in	C5B2
+		__io_status	C5B3
+		.vbl_done	C5B4
+		__current_bank	C5B5
+		_sys_time	C5B6
+		.sys_time	C5B6
+		.int_0x40	C5B8
+		.int_0x48	C5C8
+		.int_0x50	C5D8
+		.int_0x58	C5E8
+		.int_0x60	C5F8
+		.randhi	C608
+		.randlo	C609
 AREA _HEAP
 	RADIX HEX
-	BASE C609
+	BASE C60D
 	SIZE 0000
 	ATTRIB REL CON
 	GLOBALS
-		_malloc_heap_start	C609
+		_malloc_heap_start	C60D
 AREA _OVERLAY
 	RADIX HEX
-	BASE C609
+	BASE C60D
 	SIZE 0000
 	ATTRIB REL CON
 AREA _ISEG
 	RADIX HEX
-	BASE C609
+	BASE C60D
 	SIZE 0000
 	ATTRIB REL CON
 AREA _BSEG
 	RADIX HEX
-	BASE C609
+	BASE C60D
 	SIZE 0000
 	ATTRIB REL CON
 AREA _XSEG
 	RADIX HEX
-	BASE C609
+	BASE C60D
 	SIZE 0000
 	ATTRIB REL CON
 AREA _CODE_3
@@ -631,21 +631,21 @@ AREA _CODE_1
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 3FD9
+	SIZE 3F75
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
 AREA _CODE_7
 	RADIX HEX
 	BASE 4000
-	SIZE 310D
+	SIZE 34B1
 	ATTRIB REL CON
 	GLOBALS
 		_bank_7_data	4000
 AREA _CODE_5
 	RADIX HEX
 	BASE 4000
-	SIZE 0125
+	SIZE 012B
 	ATTRIB REL CON
 	GLOBALS
 		_tileset_bank_ptrs	4000
@@ -653,59 +653,59 @@ AREA _CODE_5
 		_sprite_bank_ptrs	402D
 		_scene_bank_ptrs	4060
 		_string_bank_ptrs	4081
-		_avatar_bank_ptrs	4120
-		_music_banks	4123
+		_avatar_bank_ptrs	4126
+		_music_banks	4129
 AREA _CODE_8
 	RADIX HEX
 	BASE 4000
 	SIZE 04DA
 	ATTRIB REL CON
 	GLOBALS
-		_music_7d68032f00	4000
-		_music_7d68032f01	4118
-		_music_7d68032f02	4262
-		_music_7d68032f03	43AB
+		_music_f970771800	4000
+		_music_f970771801	4118
+		_music_f970771802	4262
+		_music_f970771803	43AB
 MODULES
 	FILE C:\Users\Gordon\AppData\Local\Temp/_gbs/gbdk/lib/small/asxxxx/gb/crt0.o
 		NAME Runtime
 	FILE obj/BankData.o
-		NAME lcc94240
+		NAME lcc12800
 	FILE obj/BankManager.o
-		NAME lcc106600
+		NAME lcc67240
 	FILE obj/FadeManager.o
-		NAME lcc41920
+		NAME lcc82120
 	FILE obj/Math.o
-		NAME lcc53800
+		NAME lcc140480
 	FILE obj/MusicManager.o
-		NAME lcc152520
+		NAME lcc152880
 	FILE obj/Scene.o
-		NAME lcc120960
+		NAME lcc101440
 	FILE obj/Scene_b.o
-		NAME lcc48040
+		NAME lcc110960
 	FILE obj/ScriptRunner.o
-		NAME lcc9200
+		NAME lcc138720
 	FILE obj/ScriptRunner_b.o
-		NAME lcc97560
+		NAME lcc45520
 	FILE obj/SpriteHelpers.o
-		NAME lcc64320
+		NAME lcc148640
 	FILE obj/Stack.o
-		NAME lcc144040
+		NAME lcc55040
 	FILE obj/UI.o
-		NAME lcc48400
+		NAME lcc42960
 	FILE obj/UI_b.o
-		NAME lcc87840
+		NAME lcc5040
 	FILE obj/game.o
-		NAME lcc153040
+		NAME lcc112080
 	FILE obj/gbt_player.o
 	FILE obj/gbt_player_bank1.o
 	FILE obj/data/bank_6.o
-		NAME lcc161240
+		NAME lcc119240
 	FILE obj/data/bank_7.o
-		NAME lcc3920
+		NAME lcc48040
 	FILE obj/data/data_ptrs.o
-		NAME lcc37800
-	FILE obj/music/music_7d68032f0.o
-		NAME lcc147120
+		NAME lcc155360
+	FILE obj/music/music_f97077180.o
+		NAME lcc23640
 LIBRARIES
 	LIBRARY C:\Users\Gordon\AppData\Local\Temp/_gbs/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE crt0_rle.o
