@@ -8,8 +8,8 @@
 00:20BE s__BASE
 00:2298 s__LIT
 00:2298 s__GSINIT
-00:29CC s__GSINITTAIL
-00:29CD s__GSFINAL
+00:29D8 s__GSINITTAIL
+00:29D9 s__GSFINAL
 01:4000 s__CODE_1
 01:4000 s__CODE_3
 01:4000 s__CODE_4
@@ -17,14 +17,15 @@
 01:4000 s__CODE_6
 01:4000 s__CODE_7
 01:4000 s__CODE_8
+01:4000 s__CODE_9
 00:C000 .OAM
 00:C0A0 s__DATA
-00:C5AF s__BSS
-00:C60D s__HEAP
-00:C60D s__BSEG
-00:C60D s__ISEG
-00:C60D s__XSEG
-00:C60D s__OVERLAY
+00:C5C4 s__BSS
+00:C622 s__HEAP
+00:C622 s__BSEG
+00:C622 s__ISEG
+00:C622 s__XSEG
+00:C622 s__OVERLAY
 00:E000 .STACK
 00:FF80 .refresh_OAM
 ; Area: _CODE
@@ -336,28 +337,28 @@
 00:C571 gbt_have_to_stop_next_step
 00:C572 gbt_update_pattern_pointers
 00:C573 _bank_data_ptrs
-00:C583 _music_tracks
-00:C587 _script_variables
-00:C5A5 _music_f97077180_Data
+00:C585 _music_tracks
+00:C589 _script_variables
+00:C5BA _music_524070240_Data
 ; Area: _BSS
-00:C5AF __cpu
-00:C5B0 .mode
-00:C5B1 __io_out
-00:C5B2 __io_in
-00:C5B3 __io_status
-00:C5B4 .vbl_done
-00:C5B5 __current_bank
-00:C5B6 _sys_time
-00:C5B6 .sys_time
-00:C5B8 .int_0x40
-00:C5C8 .int_0x48
-00:C5D8 .int_0x50
-00:C5E8 .int_0x58
-00:C5F8 .int_0x60
-00:C608 .randhi
-00:C609 .randlo
+00:C5C4 __cpu
+00:C5C5 .mode
+00:C5C6 __io_out
+00:C5C7 __io_in
+00:C5C8 __io_status
+00:C5C9 .vbl_done
+00:C5CA __current_bank
+00:C5CB _sys_time
+00:C5CB .sys_time
+00:C5CD .int_0x40
+00:C5DD .int_0x48
+00:C5ED .int_0x50
+00:C5FD .int_0x58
+00:C60D .int_0x60
+00:C61D .randhi
+00:C61E .randlo
 ; Area: _HEAP
-00:C60D _malloc_heap_start
+00:C622 _malloc_heap_start
 ; Area: _OVERLAY
 ; Area: _ISEG
 ; Area: _BSEG
@@ -522,16 +523,18 @@
 01:4000 _bank_6_data
 ; Area: _CODE_7
 01:4000 _bank_7_data
+; Area: _CODE_8
+01:4000 _bank_8_data
 ; Area: _CODE_5
 01:4000 _tileset_bank_ptrs
 01:400F _background_bank_ptrs
-01:402D _sprite_bank_ptrs
-01:4060 _scene_bank_ptrs
-01:4081 _string_bank_ptrs
-01:4126 _avatar_bank_ptrs
-01:4129 _music_banks
-; Area: _CODE_8
-01:4000 _music_f970771800
-01:4118 _music_f970771801
-01:4262 _music_f970771802
-01:43AB _music_f970771803
+01:4030 _sprite_bank_ptrs
+01:4072 _scene_bank_ptrs
+01:4096 _string_bank_ptrs
+01:4156 _avatar_bank_ptrs
+01:4159 _music_banks
+; Area: _CODE_9
+01:4000 _music_5240702400
+01:4118 _music_5240702401
+01:4262 _music_5240702402
+01:43AB _music_5240702403
