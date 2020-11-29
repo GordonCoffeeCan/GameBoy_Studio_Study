@@ -2,8 +2,8 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 696,
-        "worldScrollY": 0,
+        "worldScrollX": 542,
+        "worldScrollY": 725,
         "zoom": 200,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
@@ -8618,7 +8618,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "cave.png",
-            "_v": 1606509392249
+            "_v": 1606593192795
         },
         {
             "id": "8c75a2b5-b037-4723-aacd-1dae7c2d1037",
@@ -8628,7 +8628,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "Down-1-Lake.png",
-            "_v": 1606509392249
+            "_v": 1606593192796
         },
         {
             "id": "4332095c-e9fc-472f-a7bc-8847b7fe1ee5",
@@ -8638,7 +8638,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Empty-Menu.png",
-            "_v": 1606509392249
+            "_v": 1606593192795
         },
         {
             "id": "12f93fa4-dbef-472c-b9d7-3793019d7519",
@@ -8648,7 +8648,7 @@
             "imageWidth": 208,
             "imageHeight": 144,
             "filename": "Gurbs-adventure-tile-set-1.png",
-            "_v": 1606509392249
+            "_v": 1606593192796
         },
         {
             "id": "39789dd6-7ec9-4c41-98be-dd4617a8e236",
@@ -8658,7 +8658,7 @@
             "imageWidth": 160,
             "imageHeight": 200,
             "filename": "Gurbs-adventure-title.png",
-            "_v": 1606509392249
+            "_v": 1606593192796
         },
         {
             "id": "107f6d42-8e65-4540-b06f-63a4743249aa",
@@ -8668,7 +8668,7 @@
             "imageWidth": 160,
             "imageHeight": 160,
             "filename": "Gurbs-adventure-title-1.png",
-            "_v": 1606509392249
+            "_v": 1606593192796
         },
         {
             "id": "b340b9a2-2865-4e05-91c0-148846a693c8",
@@ -8678,7 +8678,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "house.png",
-            "_v": 1606509392249
+            "_v": 1606593192796
         },
         {
             "id": "17219caf-d8f7-4249-a205-9bcbcd8ef3ae",
@@ -8688,7 +8688,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Inventory.png",
-            "_v": 1606509392249
+            "_v": 1606593192796
         },
         {
             "id": "046bf639-f85b-40e1-918e-3f4aa85fe56a",
@@ -8698,7 +8698,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "Left-1-SquirrelPath.png",
-            "_v": 1606509392249
+            "_v": 1606593192796
         },
         {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
@@ -8708,7 +8708,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "logo.png",
-            "_v": 1606509392249
+            "_v": 1606593192796
         },
         {
             "id": "3dcafd4c-5037-4d49-a40e-63c18323d03a",
@@ -8718,7 +8718,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Main-Menu.png",
-            "_v": 1606509392249
+            "_v": 1606593192796
         },
         {
             "id": "0ca4b0d4-c763-48d9-bee1-729fe7836a42",
@@ -8728,7 +8728,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "Map-Start.png",
-            "_v": 1606509392250
+            "_v": 1606593192796
         },
         {
             "id": "b49ea566-b022-478c-979d-ec3ee255fdc5",
@@ -8738,7 +8738,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "menu.png",
-            "_v": 1606509392249
+            "_v": 1606593192796
         },
         {
             "id": "1b7fa267-d716-40f0-b0d0-f4f966610e07",
@@ -8748,7 +8748,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "outside.png",
-            "_v": 1606509392250
+            "_v": 1606593192796
         },
         {
             "id": "6ada6869-e143-483d-898f-eef72d27bca8",
@@ -8758,7 +8758,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "Right-1-Town.png",
-            "_v": 1606509392250
+            "_v": 1606593192796
         },
         {
             "id": "40fda058-df90-4205-a239-fe77bce4fa79",
@@ -8768,7 +8768,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "stars.png",
-            "_v": 1606509392249
+            "_v": 1606593192796
         },
         {
             "id": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -8778,7 +8778,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "titlescreen.png",
-            "_v": 1606509392250
+            "_v": 1606593192796
         },
         {
             "id": "f3102db4-2273-411d-b33f-4d6f65959c60",
@@ -8788,7 +8788,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "underground.png",
-            "_v": 1606509392250
+            "_v": 1606593192796
         }
     ],
     "spriteSheets": [
@@ -8798,39 +8798,7 @@
             "numFrames": 0.25,
             "type": "animated",
             "filename": "Bar.png",
-            "_v": 1606509392250
-        },
-        {
-            "id": "7b234885-f666-48da-aca3-8623b8e539ba",
-            "name": "Goblin",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "Goblin.png",
-            "_v": 1606509392250
-        },
-        {
-            "id": "cc8884eb-bc95-40ac-a342-092a75d07f13",
-            "name": "Heart",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "Heart.png",
-            "_v": 1606509392250
-        },
-        {
-            "id": "a90d6d5a-f0c0-4d52-88b4-e6c6c89d0642",
-            "name": "Items",
-            "numFrames": 4,
-            "type": "animated",
-            "filename": "Items.png",
-            "_v": 1606509392250
-        },
-        {
-            "id": "42f9e58e-338c-4dbe-a751-993d2674a060",
-            "name": "Squirrel",
-            "numFrames": 3,
-            "type": "actor",
-            "filename": "Squirrel.png",
-            "_v": 1606509392250
+            "_v": 1606593192796
         },
         {
             "id": "62661229-073c-458f-bd32-bcb16c343e32",
@@ -8838,7 +8806,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "bed.png",
-            "_v": 1606509392250
+            "_v": 1606593192796
         },
         {
             "id": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
@@ -8846,7 +8814,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "cat.png",
-            "_v": 1606509392250
+            "_v": 1606593192796
         },
         {
             "id": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
@@ -8854,7 +8822,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "checkbox.png",
-            "_v": 1606509392250
+            "_v": 1606593192796
         },
         {
             "id": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
@@ -8862,7 +8830,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "dog.png",
-            "_v": 1606509392250
+            "_v": 1606593192796
         },
         {
             "id": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
@@ -8870,7 +8838,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "duck.png",
-            "_v": 1606509392250
+            "_v": 1606593192796
         },
         {
             "id": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
@@ -8878,7 +8846,7 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "fire.png",
-            "_v": 1606509392250
+            "_v": 1606593192796
         },
         {
             "id": "fe68da14-8969-4478-b77f-9d65592aa5dd",
@@ -8886,7 +8854,23 @@
             "numFrames": 5,
             "type": "animated",
             "filename": "flower1.png",
-            "_v": 1606516774222
+            "_v": 1606593192796
+        },
+        {
+            "id": "7b234885-f666-48da-aca3-8623b8e539ba",
+            "name": "Goblin",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Goblin.png",
+            "_v": 1606593192796
+        },
+        {
+            "id": "cc8884eb-bc95-40ac-a342-092a75d07f13",
+            "name": "Heart",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Heart.png",
+            "_v": 1606593192796
         },
         {
             "id": "09ad70c6-3ce5-4b97-9e96-466221418a45",
@@ -8894,7 +8878,15 @@
             "numFrames": 1,
             "type": "static",
             "filename": "ice.png",
-            "_v": 1606509392250
+            "_v": 1606593192797
+        },
+        {
+            "id": "a90d6d5a-f0c0-4d52-88b4-e6c6c89d0642",
+            "name": "Items",
+            "numFrames": 4,
+            "type": "animated",
+            "filename": "Items.png",
+            "_v": 1606593192797
         },
         {
             "id": "dfa75239-299d-41fe-a6cd-9e9438da1938",
@@ -8902,7 +8894,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc001.png",
-            "_v": 1606509392250
+            "_v": 1606593192797
         },
         {
             "id": "40dcd163-9f72-4861-8131-b01eb9baa000",
@@ -8910,7 +8902,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc002.png",
-            "_v": 1606509392250
+            "_v": 1606593192797
         },
         {
             "id": "52ad34df-f245-4b2a-b94c-a82af1002871",
@@ -8918,7 +8910,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc003.png",
-            "_v": 1606509392250
+            "_v": 1606593192797
         },
         {
             "id": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
@@ -8926,7 +8918,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player.png",
-            "_v": 1606509392250
+            "_v": 1606593192797
         },
         {
             "id": "a0442b6a-634f-44da-9962-77938e3ed839",
@@ -8934,7 +8926,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "radio.png",
-            "_v": 1606509392250
+            "_v": 1606593192797
         },
         {
             "id": "3939e8d2-3987-4a22-953e-f1d82134eccf",
@@ -8942,7 +8934,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "rock.png",
-            "_v": 1606509392250
+            "_v": 1606593192797
         },
         {
             "id": "e20ce140-53a5-4b1b-9964-138ba0c86925",
@@ -8950,7 +8942,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "sage.png",
-            "_v": 1606509392250
+            "_v": 1606593192797
         },
         {
             "id": "000a6dde-cb60-436e-b357-30a529daa139",
@@ -8958,7 +8950,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "savepoint.png",
-            "_v": 1606509392250
+            "_v": 1606593192797
         },
         {
             "id": "163dfcf3-0d78-4f32-9b47-a7c2942ce117",
@@ -8966,7 +8958,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "seed.png",
-            "_v": 1606509392250
+            "_v": 1606593192797
         },
         {
             "id": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
@@ -8974,7 +8966,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "signpost.png",
-            "_v": 1606509392250
+            "_v": 1606593192797
         },
         {
             "id": "2de37188-4163-4d03-9a50-00759ef49d10",
@@ -8982,7 +8974,15 @@
             "numFrames": 1,
             "type": "static",
             "filename": "soil.png",
-            "_v": 1606509392250
+            "_v": 1606593192797
+        },
+        {
+            "id": "42f9e58e-338c-4dbe-a751-993d2674a060",
+            "name": "Squirrel",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "Squirrel.png",
+            "_v": 1606593192797
         },
         {
             "id": "486aafbf-681c-4e31-9c7a-2d73b82a73c5",
@@ -8990,7 +8990,7 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "sword.png",
-            "_v": 1606509392251
+            "_v": 1606593192797
         },
         {
             "id": "e9e61bf7-88fd-491d-ae01-4b7f76909108",
@@ -8998,7 +8998,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "torch.png",
-            "_v": 1606509392250
+            "_v": 1606593192798
         }
     ],
     "music": [
@@ -9006,13 +9006,13 @@
             "id": "35999d32-06cb-414e-a8c1-6f440be5bfc0",
             "name": "Peters_Song_NEW",
             "filename": "Peters_Song_NEW.mod",
-            "_v": 1606509392246
+            "_v": 1606593192791
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1606509392246
+            "_v": 1606593192791
         }
     ],
     "customEvents": [

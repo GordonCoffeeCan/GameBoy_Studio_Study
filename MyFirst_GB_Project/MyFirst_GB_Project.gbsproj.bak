@@ -1304,16 +1304,6 @@
                                         }
                                     },
                                     {
-                                        "id": "2e47f754-8308-450d-98e2-0e59247a00d8",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "mo: $44$\nX$45$, Y$46$"
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
                                         "id": "4ae8c8dd-9aa6-4e8b-b17a-288bcab2b1a4",
                                         "command": "EVENT_END"
                                     }
@@ -1602,17 +1592,6 @@
                 0
             ],
             "script": [
-                {
-                    "id": "d02cd77c-0ec6-49ac-9b88-1112faf596b3",
-                    "command": "EVENT_TEXT",
-                    "args": {
-                        "text": [
-                            "mo: $44$\nX$45$, Y$46$"
-                        ],
-                        "avatarId": ""
-                    },
-                    "__type": "event"
-                },
                 {
                     "id": "d5a9cbaa-36b4-4a6d-af24-bf820e7d31bc",
                     "command": "EVENT_END"
