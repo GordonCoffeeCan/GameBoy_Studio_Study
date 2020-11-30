@@ -189,18 +189,18 @@ AREA .  .ABS.
 		l__HOME	0252
 		l__GSINIT	0507
 		l__DATA	0E1E
-		l__CODE_7	2044
-		l__CODE_5	20D3
+		l__CODE_5	20D6
 		l__CODE	2C12
 		s__HOME	2E12
 		s__BASE	3064
 		s__LIT	3282
 		s__GSINIT	3282
+		l__CODE_7	3366
 		l__CODE_4	34DF
 		l__CODE_1	35B4
 		s__GSINITTAIL	3789
 		s__GSFINAL	378A
-		l__CODE_6	3FF8
+		l__CODE_6	3FEF
 		s__CODE_1	4000
 		s__CODE_4	4000
 		s__CODE_5	4000
@@ -1015,43 +1015,43 @@ AREA _XSEG
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 3FF8
+	SIZE 3FEF
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
 AREA _CODE_7
 	RADIX HEX
 	BASE 4000
-	SIZE 2044
+	SIZE 3366
 	ATTRIB REL CON
 	GLOBALS
 		_bank_7_data	4000
 AREA _CODE_5
 	RADIX HEX
 	BASE 4000
-	SIZE 20D3
+	SIZE 20D6
 	ATTRIB REL CON
 	GLOBALS
 		_tileset_bank_ptrs	4000
-		_background_bank_ptrs	4003
-		_background_attr_bank_ptrs	4036
-		_palette_bank_ptrs	4069
-		_sprite_bank_ptrs	406C
-		_scene_bank_ptrs	406F
-		_collision_bank_ptrs	40A2
-		_avatar_bank_ptrs	40D5
-		_music_tracks	40D8
-		_music_banks	40DC
-		_Start_Adventure	40DE
-		_Update_Adventure	40F3
-		_Start_Platform	46F3
-		_Update_Platform	47BF
-		_Start_PointNClick	539F
-		_Update_PointNClick	53C8
-		_Start_Shmup	5683
-		_Update_Shmup	5713
-		_Start_TopDown	5CB5
-		_Update_TopDown	5CCA
+		_background_bank_ptrs	4006
+		_background_attr_bank_ptrs	4039
+		_palette_bank_ptrs	406C
+		_sprite_bank_ptrs	406F
+		_scene_bank_ptrs	4072
+		_collision_bank_ptrs	40A5
+		_avatar_bank_ptrs	40D8
+		_music_tracks	40DB
+		_music_banks	40DF
+		_Start_Adventure	40E1
+		_Update_Adventure	40F6
+		_Start_Platform	46F6
+		_Update_Platform	47C2
+		_Start_PointNClick	53A2
+		_Update_PointNClick	53CB
+		_Start_Shmup	5686
+		_Update_Shmup	5716
+		_Start_TopDown	5CB8
+		_Update_TopDown	5CCD
 AREA _SFR0
 	RADIX HEX
 	BASE 0000
@@ -1461,154 +1461,83 @@ MODULES
 		NAME Runtime
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Actor_a.o
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Actor_b.o
-		NAME C__Users_Gordon_AppData_Local_Teñå©¡ñå©¡øìÇ©jFRƒP¬RF
-RF
-øì°ŞÏù¤Ê
+		NAME C__Users_Gordon_AppData_Local_TeèâğèâğáŒø”KS98S¬KAS¬KASáûw
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Actor.o
-		NAME C__Users_Gordon_AppData_Local_Teq›©¡q›©¡x’Ç©ê8R–s¬Ò8
-Ò8
-x’°ŞötÍ
+		NAME C__Users_Gordon_AppData_Local_TeOâğOâğFŒøÔ³Séµ8Sì³ASì³ASFû€a
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/asm.macros.o
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/BankData.o
-		NAME C__Users_Gordon_AppData_Local_Teä©¡ä©¡íÇ©ŠGRÌÁ¬²G
-²G
-í°Şûù˜Ê
+		NAME C__Users_Gordon_AppData_Local_TeëâğëâğâŒø”HSD¹8S¬HAS¬HASâûnl
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/BankManager.o
-		NAME C__Users_Gordon_AppData_Local_Te1å©¡1å©¡8ìÇ©ªFRã}¬’F
-’F
-8ì°Ş§ù¼Ê
+		NAME C__Users_Gordon_AppData_Local_TeÏèâğÏèâğÆáŒøTKSŠ8SlKASlKASÆáû
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Camera_a.o
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Camera.o
-		NAME C__Users_Gordon_AppData_Local_TeÑç©¡Ñç©¡ØîÇ©JDR$®¬rD
-rD
-Øî°ŞƒùàÊ
+		NAME C__Users_Gordon_AppData_Local_Te¯ëâğ¯ëâğ¦âŒø4HSâé8SHASHAS¦âûbxO~
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Collision.o
-		NAME C__Users_Gordon_AppData_Local_Te1Ÿ©¡1Ÿ©¡8–Ç©ª<Rµ\¬’<
-’<
-8–°ŞgöüÍ
+		NAME C__Users_Gordon_AppData_Local_TeïìâğïìâğæåŒøtOSb8SLOASLOASæåûš‚´€
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Core_Main.o
-		NAME C__Users_Gordon_AppData_Local_Teñà©¡ñà©¡øéÇ©jCR\É¬RC
-RC
-øé°ŞoùÊ
+		NAME C__Users_Gordon_AppData_Local_Te/âğ/âğ&Œø´³SÚê8SŒ³ASŒ³AS&û2€Gb
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/DataManager.o
-		NAME C__Users_Gordon_AppData_Local_Te±™©¡±™©¡¸Ç©*:Rß'¬:
-:
-¸°ŞWö,Í
+		NAME C__Users_Gordon_AppData_Local_TeïâğïâğæŒøt°S;Ã8SL°ASL°ASæûzp€
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/FadeManager_b.o
-		NAME C__Users_Gordon_AppData_Local_Te1š©¡1š©¡8“Ç©ª9RŸÅ¬’9
-’9
-8“°Şö\Í
+		NAME C__Users_Gordon_AppData_Local_Te¯âğ¯âğ¦Œø4±S8S±AS±AS¦ûBX€f
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/FadeManager.o
-		NAME C__Users_Gordon_AppData_Local_Teq˜©¡q˜©¡x‘Ç©ê;RÍú¬Ò;
-Ò;
-x‘°ŞöÍ
+		NAME C__Users_Gordon_AppData_Local_TeïââğïââğæëŒøtAS'38SLAASLAASæëûZP‚
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/gbt_player_bank1.o
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/gbt_player.o
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Input.o
-		NAME C__Users_Gordon_AppData_Local_Teñã©¡ñã©¡øêÇ©j@R„¬R@
-R@
-øê°ŞùdÊ
+		NAME C__Users_Gordon_AppData_Local_TeoàâğoàâğféŒøôCS9U8SÌCASÌCASféû
+
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Math.o
-		NAME C__Users_Gordon_AppData_Local_Te1ã©¡1ã©¡8êÇ©ª@RÊ×¬’@
-’@
-8ê°Şçø|Ê
+		NAME C__Users_Gordon_AppData_Local_Te¯áâğ¯áâğ¦èŒø4BSv&8SBASBAS¦èû"8‚
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/MusicManager.o
-		NAME C__Users_Gordon_AppData_Local_Te‘ì©¡‘ì©¡˜åÇ©
-ORÿ“¬2O
-2O
-˜å°ŞëøˆË
+		NAME C__Users_Gordon_AppData_Local_Te¯äâğ¯äâğ¦íŒø4GS8Í8SGASGAS¦íû‚˜ƒ
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Palette.o
-		NAME C__Users_Gordon_AppData_Local_Teqì©¡qì©¡xåÇ©êORˆÄ¬ÒO
-ÒO
-xå°Şÿø”Ë
+		NAME C__Users_Gordon_AppData_Local_TeÏúâğÏúâğÆóŒøTYS’ä8SlYASlYASÆóûVTƒ¥
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Projectiles_b.o
-		NAME C__Users_Gordon_AppData_Local_Teqï©¡qï©¡xæÇ©êLRÚ¬ÒL
-ÒL
-xæ°ŞŸøôË
+		NAME C__Users_Gordon_AppData_Local_Te/øâğ/øâğ&ñŒø´[S6¦8SŒ[ASŒ[AS&ñû2ƒ
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Projectiles.o
-		NAME C__Users_Gordon_AppData_Local_Teâ©¡â©¡ëÇ©ŠARH¬²A
-²A
-ë°Ş;ùXÊ
+		NAME C__Users_Gordon_AppData_Local_Teùâğùâğ†ğŒøZSu8S,ZAS,ZAS†ğû><ƒ
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/ScriptRunner_b.o
-		NAME C__Users_Gordon_AppData_Local_Teí©¡í©¡äÇ©ŠNR>ç¬²N
-²N
-ä°ŞÛø¸Ë
+		NAME C__Users_Gordon_AppData_Local_Te¯úâğ¯úâğ¦óŒø4YSEÍ8SYASYAS¦óûBXƒ¦
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/ScriptRunner.o
-		NAME C__Users_Gordon_AppData_Local_TeÑë©¡Ñë©¡ØâÇ©JHRæ¬rH
-rH
-Øâ°Şø`Ë
+		NAME C__Users_Gordon_AppData_Local_Te‡‰	ò‡‰	ò€gú*òQ†ÓQ$*ªQ$*ªQ€?c;…
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Scroll_a.o
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Scroll_b.o
-		NAME C__Users_Gordon_AppData_Local_TeQã©¡Qã©¡XêÇ©Ê@Rdy¬ò@
-ò@
-Xê°ŞùpÊ
+		NAME C__Users_Gordon_AppData_Local_Te‡¶	ò‡¶	ò¿gúòQøïÓQ$ªQ$ªQ¿ßd[…
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Scroll.o
-		NAME C__Users_Gordon_AppData_Local_Te‘ï©¡‘ï©¡˜æÇ©
-LRv¬2L
-2L
-˜æ°Ş‹øèË
+		NAME C__Users_Gordon_AppData_Local_Teg‰	òg‰	òn€gúü*òQyÓQÄ*ªQÄ*ªQn€
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Sprite_b.o
-		NAME C__Users_Gordon_AppData_Local_Te‘á©¡‘á©¡˜èÇ©
-BR`¬2B
-2B
-˜è°ŞKù(Ê
+		NAME C__Users_Gordon_AppData_Local_TeÇ·	òÇ·	òÎ¾gú\òQ›vÓQdªQdªQÎ¾÷dc…
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Sprite.o
-		NAME C__Users_Gordon_AppData_Local_Teqá©¡qá©¡xèÇ©êBR%¬ÒB
-ÒB
-xè°Ş_ù4Ê
+		NAME C__Users_Gordon_AppData_Local_Teg½	òg½	òn´gúüòQƒÏÓQÄªQÄªQn´«e·„
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Stack.o
-		NAME C__Users_Gordon_AppData_Local_TeQî©¡Qî©¡XçÇ©ÊMRQ•¬òM
-òM
-Xç°Ş³øĞË
+		NAME C__Users_Gordon_AppData_Local_TeG²	òG²	òN»gúÜòQBhÓQäªQäªQN»GdÓ…
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Trigger_b.o
-		NAME C__Users_Gordon_AppData_Local_Te1î©¡1î©¡8çÇ©ªMR!¬’M
-’M
-8ç°Ş‡øÜË
+		NAME C__Users_Gordon_AppData_Local_Te»	ò»	ò²gúœòQuØÓQ¤ªQ¤ªQ²oe‹„
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Trigger.o
-		NAME C__Users_Gordon_AppData_Local_Te±ü©¡±ü©¡¸õÇ©*_RÙ÷¬_
-_
-¸õ°Ş÷úŒÉ
+		NAME C__Users_Gordon_AppData_Local_Te‡º	ò‡º	ò³gúòQé)ÓQ$ªQ$ªQ³_eÛ„
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/UI_b.o
-		NAME C__Users_Gordon_AppData_Local_TeÑñ©¡Ññ©¡ØøÇ©JRRù¬rR
-rR
-Øø°ŞCû È
+		NAME C__Users_Gordon_AppData_Local_TeÇ±	òÇ±	òÎ¸gú\òQV—ÓQdªQdªQÎ¸7d#„
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/UI.o
-		NAME C__Users_Gordon_AppData_Local_Te‘ó©¡‘ó©¡˜úÇ©
-PRD×¬2P
-2P
-˜ú°ŞûhÈ
+		NAME C__Users_Gordon_AppData_Local_Teç²	òç²	òî»gú|òQ3BÓQDªQDªQî»[dÇ…
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/bank_6.o
 		NAME bank_6
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/bank_7.o
 		NAME bank_7
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/data_ptrs.o
-		NAME C__Users_Gordon_AppData_Local_TeÑö©¡Ñö©¡ØÿÇ©JURmÍ¬rU
-rU
-Øÿ°Ş£ûÀÈ
+		NAME C__Users_Gordon_AppData_Local_Te±	ò±	ò¸gúœòQ²ÎÓQ¤ªQ¤ªQ¸/dË…
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/main.o
-		NAME C__Users_Gordon_AppData_Local_Teqş©¡qş©¡x÷Ç©ê]Rˆª¬Ò]
-Ò]
-x÷°Ş¿úÔÉ
+		NAME C__Users_Gordon_AppData_Local_Teçµ	òçµ	òî¼gú|òQrjÓQDªQDªQî¼»d§…
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Adventure.o
-		NAME C__Users_Gordon_AppData_Local_Teñò©¡ñò©¡øûÇ©jQR¿D¬RQ
-RQ
-øû°Ş/ûDÈ
+		NAME C__Users_Gordon_AppData_Local_Teç¼	òç¼	òîµgú|òQËÓQDªQDªQîµ›e‡„
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Platform.o
-		NAME C__Users_Gordon_AppData_Local_TeQı©¡Qı©¡XôÇ©Ê^R7¬ò^
-ò^
-Xô°ŞÓú°É
+		NAME C__Users_Gordon_AppData_Local_Te'¼	ò'¼	ò.µgú¼òQúÄÓQ„ªQ„ªQ.µ³e¯„
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/PointNClick.o
-		NAME C__Users_Gordon_AppData_Local_TeÑÿ©¡Ñÿ©¡ØöÇ©J\RÉÖ¬r\
-r\
-Øö°ŞƒúàÉ
+		NAME C__Users_Gordon_AppData_Local_Te×óò×óòŞú`úLPõQIcÔQtP­QtP­QŞúuŒâ„
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/Shmup.o
-		NAME C__Users_Gordon_AppData_Local_Te1ô©¡1ô©¡8ıÇ©ªWRúì¬’W
-’W
-8ı°ŞÇûœÈ
+		NAME C__Users_Gordon_AppData_Local_TewÈòwÈò~Á`úìkõQê)ÔQÔk­QÔk­Q~Á	‹„
 	FILE C:/Users/Gordon/AppData/Local/Temp/_gbsbuild/obj/TopDown.o
-		NAME C__Users_Gordon_AppData_Local_Teñø©¡ñø©¡øñÇ©j[RÊÄ¬R[
-R[
-øñ°ŞoúÉ
+		NAME C__Users_Gordon_AppData_Local_Te—Èò—ÈòÁ`úkõQÑÏÔQ4k­Q4k­QÁ‹„
 LIBRARIES
 	LIBRARY C:\Users\Gordon\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE sfr.o
